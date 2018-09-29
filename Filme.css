@@ -1,0 +1,60 @@
+.container{
+	display:grid;
+	grid-template-rows: 150px 130px 500px;
+	grid-template-columns: 300px 1100px  ;
+	grid-template-areas:
+	"header header"
+	"nav untertitel"
+	"nav article"
+}
+
+header{
+	grid-area: header;
+	background: linear-gradient(#1F01E8 ,#315AFE);
+	border-bottom: white solid;
+		
+}
+
+
+nav{
+	grid-area: nav;
+	background: linear-gradient(#2852FB, /*#728EFE, #A2B4FE,*/ white);
+	text-align: center;	
+	font-family: "arial", cursive, black;
+	
+}
+
+
+.untertitel{
+	grid-area: untertitel;
+	background: linear-gradient(#2852FB, #B6C4FE);
+	border-bottom: white solid;
+}
+
+
+article{
+	grid-area: article;
+	background: linear-gradient(#C3CEFA, white);
+}
+
+
+#ml{
+	font-family: "URW Chancery L", cursive;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 35pt;
+	font-color: black;
+}
+#nav1{
+	font-family: "arial";
+	
+}
+video{
+	height:480;
+	width:640;
+}
+.uhr{
+	width:100%;
+	height:115;
+	border:0;
+}
